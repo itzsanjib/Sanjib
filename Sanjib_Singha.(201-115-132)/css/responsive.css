@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px){
+	span.navbar-toggler-icon {
+    background: white;
+    padding: 15px;
+    width: 100%;
+}
+.icons {
+    margin-top: 46px;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+}
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: white;
+    margin-right: 119px;
+    font-size: 29px;
+}
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
+    margin-right: 40px;
+    margin-left: -44px;
+}
+.about-me h2 {
+    color: #e2cc0c;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: -100px;
+}
+ul#pills-tab {
+    margin-left: 22px;
+    margin-top: -164px;
+}
+.about-me h3 {
+    font-size: 16px;
+}
+.icon-2 {
+    min-height: 20px;
+    border: 1px solid transparent;
+    margin-top: 57px;
+    margin-left: 3px;
+}
+.icon-3 {
+    min-height: 20px;
+    border: 1px solid transparent;
+    margin-top: 57px;
+    margin-left: 3px;
+}
+input[type="text"] {
+    padding: 7px 80px;
+    margin-left: -336px;
+}
+input[type="Enail"]{
+	margin-left: -336px;
+}
+input[type="phone"]{
+	margin-left: -336px;
+}
+input[type="Message body"] {
+    float: right;
+    margin-top: 11px;
+    padding: 74px 82px;
+    margin-right: 218px;
+}
+input[type="submit"] {
+    margin-left: -138px;
+    background: #e8d425;
+    padding: 4px 20px;
+    margin-top: 20px;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    margin-bottom: 26px;
+    color: white;
+    margin-right: 72px;
+    font-size: 21px;
+}
+}

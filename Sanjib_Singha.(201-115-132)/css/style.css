@@ -1,0 +1,203 @@
+
+/*==================header section========================*/
+header{background: url('../images/01-Home-1_01.png');
+background-repeat:no-repeat;
+background-size:cover;
+min-height:960px;
+position:relative;
+}
+header:before{position:absolute;
+content:"";
+height:100%;
+width:100%;
+background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000);
+opacity:.25;}
+/*=================Navbar===============*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(42, 204, 190);
+    margin-left: 34px;
+}
+.navbar-light .navbar-nav .nav-link:visited{color:white;}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand  span {
+    color:#d30e0e;
+}
+.header-text h1 {
+    text-align: center;
+    color:#d30e0e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 59px;
+    margin-top: 262px;
+}
+.header-text h3 {
+    color: white;
+    text-align: center;
+    font-size: 51px;
+    font-weight: 300;
+    margin-top: 31px;
+}
+.icons {
+    margin-top: 266px;
+    color: white;
+    font-size: 20px;
+}
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: white;
+}
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-bottom: 30px;
+    color:white;
+}
+.fab:hover{color:#e2cc0c;}
+.fas:hover{color:#e2cc0c;}
+/*=============================About me=========================*/
+.about-me {
+    border-right: 3px solid #000000a6;
+    min-height: 20px;
+    width: 17%;
+    text-align: center;
+    margin-top: 150px;
+    float: right;
+}
+.about-me h3 {
+    font-size: 24px;
+}
+.about-me h2 {
+    color:#d30e0e;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.rr{border:1px solid transparent;
+margin-top:300px;}
+.my-pic{border:0px solid #e2cc0c;}
+.my-pic img{width:100%;}
+.my-bio{border:1px solid transparent;}
+.my-bio h2 {
+    font-size: 54px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 44px;
+}
+.my-bio p {
+    font-size: 18px;
+    width: 59%;
+    color: #00000096;
+}
+.my-bio a {
+    color: black;
+    text-decoration: none;
+    background-color: #d30e0e;
+    padding: 17px 60px;
+    line-height: 100px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/*==========================icon======================================*/
+.icon-1{min-height:20px;
+border:1px solid transparent;
+margin-top:300px;}
+.icon-1 i.fas.fa-home {
+    background: #a54635;
+    
+    color: white;
+    padding: 13px 14px;
+    font-size: 34px;
+    float: left;
+    margin-right: 20px;}
+.icon-2{min-height:20px;
+border:1px solid transparent;
+margin-top:300px;
+margin-left: 35px;}
+.icon-2 i.fas.fa-envelope {
+    background: #a54635;
+    color: white;
+    padding: 13px 14px;
+    font-size: 34px;
+    float: left;
+    margin-right: 20px;}
+.icon-3{min-height:20px;
+border:1px solid transparent;
+margin-top:300px;
+margin-left: 35px;}
+.icon-3 i.fas.fa-phone-volume {
+    background: #a54635;
+    
+    color: white;
+    padding: 13px 14px;
+    font-size: 34px;
+    float: left;
+    margin-right: 20px;}
+/*=================================foram=============================*/
+.foram {
+    border: 1px solid transparent;
+    min-height: 100px;
+    width: 40%;
+    margin-left: 397px;
+    margin-top: 62px;
+}
+input[type="text"] {
+    padding: 7px 80px;
+    margin-left: 298px;
+}
+input[type="Enail"]{
+    padding: 7px 80px;
+    margin-left: 298px;
+}
+input[type="phone"]{
+    padding: 7px 80px;
+    margin-left: 298px;
+}
+input[type="Message body"] {
+    float: right;
+    margin-top: -197px;
+    padding: 74px 100px;
+}
+input[type="submit"] {
+    margin-left: 380px;
+    background: #e1dfce;
+    padding: 4px 20px;
+}
+/*=================================Footer================================*/
+footer{min-height: 300px;
+border:1px solid transparent;
+margin-top:100px;
+background:rgb(233, 108, 91);
+text-align: center;
+}
+ footer h2 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 43px;
+}
+footer span {
+    color: white;
+}
+ footer.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 24px;
+}
+ footer h4 {
+    font-size: 13px;
+    color: white;
+}
